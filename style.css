@@ -1,0 +1,125 @@
+
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #111b5c;
+    color: white;
+    box-sizing: border-box;
+}
+.navbar {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 6%;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.nav-links a:hover {
+    color: #38bdf8;
+}
+.contact-btn {
+    text-decoration: none;
+    color: white;
+    border: 1px solid #526080;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-size: 13px;
+}
+
+.contact-btn:hover {
+    background: #38bdf8;
+    color: #030514;
+}
+.hero {
+    min-height: calc(100vh - 70px);
+        display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 12%;
+    gap: 50px;
+}
+.hero-content {
+    max-width: 550px;
+}
+
+.hero h1 {
+    font-size: 40px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.hero h1 span {
+    color: #38bdf8;
+}
+
+.hero p {
+    color: #a8b0c5;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+.hero-buttons {
+    display: flex;
+    gap: 25px;
+    margin-bottom: 30px;
+}
+
+.btn {
+    text-decoration: none;
+    color: white;
+    border: 1px solid #526080;
+    padding: 12px 25px;
+    border-radius: 25px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #38bdf8;
+    color: #080d2f;
+}
+.social-links {
+    display: flex;
+    gap: 20px;
+}
+
+.social-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.social-links a:hover {
+    color: #38bdf8;
+}
+.hero-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
